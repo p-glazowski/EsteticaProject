@@ -1,9 +1,14 @@
 export function Footer() {
   return (
-    <footer className="grid grid-cols-2 items-end gap-10 bg-[#191916] px-[7%] pb-[30px] pt-[60px] text-[#d5cfc4] min-[801px]:grid-cols-[2fr_1fr_1fr] min-[801px]:px-[10%] min-[801px]:pb-9 min-[801px]:pt-[65px]">
-      <a className="col-span-2 font-display text-[clamp(70px,10vw,150px)] leading-[0.9] tracking-[-0.07em] text-[#eee9df] min-[801px]:col-span-1" href="#start">estetica<span className="text-gold">.</span></a>
-      <div className="text-xs text-[#aaa399]"><p>Studio dłoni i stóp<br />Warszawa Białołęka</p><p className="mt-4">© Estetica Dłoni i Stóp</p></div>
-      <a className="text-right text-xs text-[#aaa399]" href="#start">Wróć na górę ↑</a>
+    <footer className="bg-[#191916] px-[7%] py-6 text-[#d5cfc4] lg:px-[10%]">
+      <div className="flex items-center justify-between gap-4">
+        <a className="inline-flex min-h-11 items-center font-display text-[34px] leading-none tracking-[-0.06em] text-[#eee9df]" href="#start" aria-label="Estetica — wróć na górę">estetica<span className="text-gold">.</span></a>
+        <a className="inline-flex min-h-11 items-center gap-2 text-sm text-[#c0b9ae] hover:underline" href="#start">Wróć na górę <span aria-hidden="true">↑</span></a>
+      </div>
+      <div className="mt-3 flex flex-col gap-1 text-xs text-[#aaa399] sm:flex-row sm:justify-between sm:gap-4">
+        <p>Studio dłoni i stóp · Warszawa Białołęka</p>
+        <p>© Estetica Dłoni i Stóp</p>
+      </div>
     </footer>
   );
 }
