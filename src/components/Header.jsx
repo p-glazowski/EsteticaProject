@@ -12,7 +12,7 @@ export function Header() {
     <header className="bg-paper px-[6%]">
       <div className="flex h-[78px] items-center justify-between gap-3 lg:h-[94px]">
         <a className="inline-flex min-h-11 shrink-0 items-center gap-2.5 leading-none" href="#start" aria-label="Estetica Dłoni i Stóp — strona główna">
-          <img className="h-[42px] w-9 lg:h-12 lg:w-[43px]" src="/estetica-symbol.svg" alt="" width="43" height="48" />
+          <img className="h-[42px] w-9 lg:h-12 lg:w-[43px]" src={`${import.meta.env.BASE_URL}estetica-symbol.svg`} alt="" width="43" height="48" />
           <span className="flex flex-col gap-1.5"><span className="font-[Georgia,serif] text-xl tracking-[0.035em] text-[#302b25] lg:text-[23px]">ESTETICA</span><span className="text-[7px] font-bold tracking-[0.22em] text-[#816b47] lg:text-[8px]">DŁONI I STÓP</span></span>
         </a>
         <nav aria-label="Nawigacja główna" className="hidden gap-8 text-sm lg:flex">

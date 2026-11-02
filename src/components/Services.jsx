@@ -26,7 +26,7 @@ export function Services() {
         <a className="mt-3 inline-flex min-h-11 items-center gap-4 text-sm font-semibold underline decoration-[#b9a681] underline-offset-4 hover:decoration-ink" href={links.booksy} target="_blank" rel="noopener noreferrer">Znajdź wizytę w Booksy <span aria-hidden="true">↗</span></a>
         </div>
         <div className="w-full lg:max-w-[360px] lg:justify-self-end">
-          <img src="/preview/care-details.png" alt="" loading="lazy" width="1024" height="1536" onError={(event) => { event.currentTarget.hidden = true; }} className="aspect-[16/10] w-full rounded-[24px] object-cover object-center lg:aspect-[4/5] lg:rounded-[24px]" />
+          <img src={`${import.meta.env.BASE_URL}images/care-details.png`} alt="" loading="lazy" width="1024" height="1536" onError={(event) => { event.currentTarget.hidden = true; }} className="aspect-[16/10] w-full rounded-[24px] object-cover object-center lg:aspect-[4/5] lg:rounded-[24px]" />
         </div>
       </div>
     </section>

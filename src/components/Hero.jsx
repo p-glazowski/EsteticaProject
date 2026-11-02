@@ -21,7 +21,7 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <div className="mx-[7%] mb-4 aspect-[16/10] sm:aspect-[16/7] overflow-hidden rounded-[28px] bg-[#57473a] bg-[url('/preview/studio.png')] bg-[position:60%_center] bg-cover lg:mx-0 lg:mb-0 lg:aspect-auto lg:min-h-[600px] lg:rounded-none lg:bg-[position:65%_center]" role="img" aria-label="Dekoracyjna kompozycja akcesoriów do pielęgnacji dłoni" />
+      <div className="mx-[7%] mb-4 aspect-[16/10] sm:aspect-[16/7] overflow-hidden rounded-[28px] bg-[#57473a] bg-[position:60%_center] bg-cover lg:mx-0 lg:mb-0 lg:aspect-auto lg:min-h-[600px] lg:rounded-none lg:bg-[position:65%_center]" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/studio.png)` }} role="img" aria-label="Dekoracyjna kompozycja akcesoriów do pielęgnacji dłoni" />
     </section>
   );
 }
